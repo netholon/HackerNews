@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-content: center;
+}
+
+.about li {
+  padding-bottom: 0.5rem;
+}
+
 .navbar {
   display: flex;
   justify-content: flex-start;
@@ -16,6 +36,7 @@
 }
 
 .navbar li {
+  text-decoration: none;
   padding: 1rem;
 }
 
